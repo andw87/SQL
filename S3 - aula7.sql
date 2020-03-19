@@ -1,6 +1,11 @@
-create database hcode;
+--https://www.w3schools.com/sql/sql_comments.asp
+/*
+comentários de várias linhas começam com / * e terminam com * /.
+comentários com uma linha --
+*/
+create database hcode; --A instrução CREATE DATABASE é usado para criar um novo banco de dados SQL. https://www.w3schools.com/sql/sql_create_db.asp
 use hcode;
-create table clientes(
+create table clientes( -- https://www.w3schools.com/sql/sql_create_table.asp
 	id INT,
     nome VARCHAR(100)
 );
@@ -11,10 +16,11 @@ select * from clientes;
 
 insert into clientes (nome,id) values ('Isis Borges',2);
 
-drop database hcode;
+drop database hcode; -- https://www.w3schools.com/sql/sql_drop_db.asp
 
-create database hcode;
+create database hcode; -- https://www.w3schools.com/sql/sql_create_db.asp
 use hcode;
+--https://www.w3schools.com/sql/sql_datatypes.asp
 CREATE TABLE tb_funcionarios(
 	id INT,
     nome VARCHAR(100),
@@ -28,3 +34,5 @@ INSERT INTO tb_funcionarios VALUES(1,'Anderson Wladis',1000.99,'2000-01-01','M',
 SELECT * FROM tb_funcionarios;
 
 DESCRIBE tb_funcionarios;
+
+--Contexto: https://pt.wikipedia.org/wiki/CRUD

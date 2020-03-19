@@ -1,0 +1,23 @@
+## Alguns Comandos SQL no terminal ##
+
+Obs.Eu utilizo o XAMPP...
+
+0 - Para conectar com o MySQL abro o Prompt de Comando;
+
+1 - No Prompt de Comando do Windows acesse o diretório:
+    c:\xampp\mysql\bin
+    mysql -u "nome do usuario" -p
+    Após isso aperte [ENTER]
+será solicitado a senha do seu usuário do banco, digite e pronto está conectado.
+
+2 - Para listar os banco de dados existentes: SHOW DATABASES; [ENTER]
+
+3 - Escolha o banco de dados que irá trabalhar através do comando USE"nome do banco de dados".
+
+4 - Dica: Observe que quando você escolheu o banco ele passa a aparecer entre "Colchetes [nome do banco]", isso facilita as operações;
+
+5 - Para descobrir as tabelas existentes no banco de dados selecionado digite o comando SHOW TABLES; [ENTER]
+
+6 - Utilize o comando DESCRIBE"nome da tabela" para exibir a estrutura da tabela;
+
+7 - Para desconectar do MySQL digite quit [ENTER];
