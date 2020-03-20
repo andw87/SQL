@@ -22,7 +22,7 @@ create database hcode; -- https://www.w3schools.com/sql/sql_create_db.asp
 use hcode;
 --https://www.w3schools.com/sql/sql_datatypes.asp
 CREATE TABLE tb_funcionarios(
-	id INT,
+    id INT,
     nome VARCHAR(100),
     salario DECIMAL(10,2),
     admissao DATE,
