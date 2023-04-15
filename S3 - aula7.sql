@@ -10,6 +10,8 @@ create table clientes( -- https://www.w3schools.com/sql/sql_create_table.asp
     nome VARCHAR(100)
 );
 
+-- comentário adicionado para testar o Git
+
 insert into clientes values(1,'Anderson Wladis');
 
 select * from clientes;
