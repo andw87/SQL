@@ -38,3 +38,5 @@ SELECT * FROM tb_funcionarios;
 DESCRIBE tb_funcionarios;
 
 --Contexto: https://pt.wikipedia.org/wiki/CRUD
+--Novo comentário teste do GitHub
+--Oi sou eu aqui de novo
